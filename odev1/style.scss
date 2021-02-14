@@ -1,0 +1,57 @@
+
+&
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body.lightTheme{
+    --bgColor:#d04949;
+    --cardBgColor: #ECEBEC;
+    --cardFontColor:#000000;
+    --btnBgColor:#ffffff;
+}
+
+body.darkTheme{
+    --bgColor:#333;
+    --cardBgColor: #2d1515;
+    --cardFontColor: #000000;
+    --btnBgColor:#333;
+}
+
+body{
+    background-color:var(--bgColor);
+    transition: .9s ease;
+}
+
+.cardThemeLight{
+    background-color: var(--cardBgColor);
+    padding: 45px;
+    border-radius: 15px;
+    margin-top: 100px;
+
+    &__title{
+        color: #f80404;
+        margin-bottom:50px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    &__desc{
+        font-family: Arial, Helvetica, sans-serif;
+        color: var(--cardFontColor);
+        padding-bottom: 40px;
+        line-height: 40px;
+    }
+
+    &__btn{
+        font-family: Arial;
+        padding:10px 30px;
+        background-color: var(--btnBgColor);
+        color: var(--cardFontColor);
+        border-radius: 10px;
+        user-select: none;
+        margin: 20px;
+        margin-bottom: 100px;
+        
+    }
+}
