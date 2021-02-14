@@ -1,0 +1,70 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.kayıtol {
+  padding: 40px;
+  background-color: #72cbd5;
+  border: 1px solid #585657;
+  -webkit-box-shadow: 2px 8px rgba(162, 156, 162, 0.067);
+          box-shadow: 2px 8px rgba(162, 156, 162, 0.067);
+  border-radius: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: auto;
+  width: 350px;
+  margin-top: 50px;
+}
+
+.kayıtol__image {
+  width: 75px;
+  margin: auto;
+  margin-bottom: 25px;
+}
+
+.kayıtol input {
+  border-radius: 10px;
+  width: 100%;
+  display: block;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #e0d5d5;
+  outline: none;
+}
+
+.kayıtol button {
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 50px;
+  border: none;
+  width: 100%;
+  cursor: pointer;
+}
+
+.kayıtol__error {
+  text-align: center;
+  margin-top: 20px;
+  background-color: red;
+  color: #fff;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.kayıtol__welcome {
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+  background-color: #d879df;
+  padding: 10px;
+}
+/*# sourceMappingURL=style.css.map */
